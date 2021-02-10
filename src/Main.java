@@ -18,8 +18,8 @@ public class Main {
         while (state){
             System.out.println("The result is " +Double.toString((TriangleArea(200, 300)+i) )+" i ="+i );
             i++;
-            if(i==100){
-                state = true;
+            if(i==200){
+                state = false;
             }
         }
 
